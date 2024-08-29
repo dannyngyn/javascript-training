@@ -138,26 +138,26 @@
 //console.log(result); 
 
 //comparison operators
-let age = 25;
+// let age = 25;
 
-console.log(age == 25);
-console.log(age == 30);
-console.log(age != 30);
-console.log(age > 25);
-console.log(age < 25);
-console.log(age <= 25);
-console.log(age >= 25);
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 25);
+// console.log(age < 25);
+// console.log(age <= 25);
+// console.log(age >= 25);
 
-let name = 'shaun';
+// let name = 'shaun';
 
-//true 
-console.log(name == 'shaun')
+// true 
+// console.log(name == 'shaun')
 
-//false
-console.log(name == 'peter')
+// false
+// console.log(name == 'peter')
 
-//true c is greater than s
-console.log(name > 'crystal')
+// true c is greater than s
+// console.log(name > 'crystal')
 
-//true capitals are greater 
-console.log(name > 'Shaun')
+// true capitals are greater 
+// console.log(name > 'Shaun')
