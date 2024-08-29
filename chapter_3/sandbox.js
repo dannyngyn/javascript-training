@@ -36,43 +36,66 @@
 // while(i < 5)
 
 //if statements
-const age = 20;
+// const age = 20;
 
-if(age > 20){
-    console.log('you are over 20 years old');
-}
+// if(age > 20){
+//     console.log('you are over 20 years old');
+// }
 
-const ninjas = ['shaun','ryu', 'chun-li', 'yoshi'];
+// const ninjas = ['shaun','ryu', 'chun-li', 'yoshi'];
 
-if(ninjas.length > 3){
-    console.log("that's a lot of ninjas");
-}
+// if(ninjas.length > 3){
+//     console.log("that's a lot of ninjas");
+// }
 
-const password = 'p@ssordssssss';
+// const password = 'p@ssordssssss';
 
-if(password.length >= 12 && password.includes('@')){
-    console.log('that password is mighty strong')
-}
-else if(password.length >= 8 || password.inclues ('@')){
-    console.log('that password is strong enough')
-}
-else{
-    console.log('password is not long enough')
-}
+// if(password.length >= 12 && password.includes('@')){
+//     console.log('that password is mighty strong')
+// }
+// else if(password.length >= 8 || password.inclues ('@')){
+//     console.log('that password is strong enough')
+// }
+// else{
+//     console.log('password is not long enough')
+// }
 
-const scores = [50,25,0,30,100,20,10];
+// const scores = [50,25,0,30,100,20,10];
 
-for(let i = 0; i < scores.length; i++){
+// for(let i = 0; i < scores.length; i++){
 
-    if(scores[i] === 0){
-        continue;
-    }
+//     if(scores[i] === 0){
+//         continue;
+//     }
 
-    console.log('your score: ', scores[i]);
+//     console.log('your score: ', scores[i]);
 
-    if(scores[i] === 100){
-        console.log('congrats, you go the top score');
+//     if(scores[i] === 100){
+//         console.log('congrats, you go the top score');
+//         break;
+//     }
+// }
+
+// switch statements
+
+const grade = 'D';
+
+switch(grade){
+    case 'A':
+        console.log('you go an A')
         break;
-    }
+    case 'B':
+        console.log('you go an B')
+        break;
+    case 'C':
+        console.log('you go an C')
+        break;
+    case 'D':
+        console.log('you go an D')
+        break;
+    case 'E':
+        console.log('you go an E')
+        break;
+    default:
+        console.log('not a valid grade')
 }
-
