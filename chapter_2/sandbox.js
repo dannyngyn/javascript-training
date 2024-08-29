@@ -95,27 +95,69 @@
 
 //  console.log(html);
 
- let ninjas = ['shaun', 'ryu' , 'chun-li'];
- ninjas[1] = 'ken';
- console.log(ninjas[1])
+//  let ninjas = ['shaun', 'ryu' , 'chun-li'];
+//  ninjas[1] = 'ken';
+//  console.log(ninjas[1])
 
-let ages = [20,25,30.35];
-console.log(ages[2]);
+// let ages = [20,25,30.35];
+// console.log(ages[2]);
 
-let random = ['shaun', 'crystal', 30,20];
-console.log(random);
+// let random = ['shaun', 'crystal', 30,20];
+// console.log(random);
 
-console.log(ninjas.length)
+// console.log(ninjas.length)
 
 // array methods
 
 // let ninjaResult = ninjas.join('-');
 // let ninjaResult = ninjas.indexOf('chun-li');
 // let ninjaResult = ninjas.concat(['ken', 'crystal'])
-let ninjaResult = ninjas.push('ken');
-ninjaResult = ninjas.pop();
+// let ninjaResult = ninjas.push('ken');
+// ninjaResult = ninjas.pop();
 
-console.log(ninjaResult)
+// console.log(ninjaResult)
 
+// let age = null;
 
+// console.log(age, age + 3, `the age is ${age}`);
 
+// booleans & comparisons
+
+// console.log(true, false, "true", "false");
+
+// methods can return booleans
+// let email = 'dnguyen5@rrc.ca';
+// let names = ['mario', 'luigi', 'toad'];
+
+//true
+//let result = email.includes('mario');
+
+// false
+// let result = email.includes('bowser');
+
+//console.log(result); 
+
+//comparison operators
+let age = 25;
+
+console.log(age == 25);
+console.log(age == 30);
+console.log(age != 30);
+console.log(age > 25);
+console.log(age < 25);
+console.log(age <= 25);
+console.log(age >= 25);
+
+let name = 'shaun';
+
+//true 
+console.log(name == 'shaun')
+
+//false
+console.log(name == 'peter')
+
+//true c is greater than s
+console.log(name > 'crystal')
+
+//true capitals are greater 
+console.log(name > 'Shaun')
