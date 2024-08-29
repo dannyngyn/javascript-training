@@ -48,15 +48,15 @@
 
 // console.log(emailResult);
 
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 
-console.log(radius, pi);
+// console.log(radius, pi);
 // let radiusResult = radius % 3;
 // let radiusResult = pi * radius**2;
-let radiusResult = 5 * (10-3)**2;
+// let radiusResult = 5 * (10-3)**2;
 
-console.log(radiusResult);
+// console.log(radiusResult);
 
 // let likes = 10;
 // likes++;
@@ -75,9 +75,9 @@ console.log(radiusResult);
 // console.log(likeResult);
 
 // template strings
-const title = 'Best reads of 2019';
-const author = 'Mario';
-const likes = 30;
+// const title = 'Best reads of 2019';
+// const author = 'Mario';
+// const likes = 30;
 
 // concatenation way
 // let blogResult = 'The blog called ' + title + ' by' + author + ' has' + likes + ' likes';
@@ -87,13 +87,13 @@ const likes = 30;
 // console.log(blogResult);
 
 // creating html templates
-let html = `
- <h2>$(title)</h2>
- <p>$(author)</p>
- <span>This blog has ${likes}</span>
- `;
+// let html = `
+//  <h2>$(title)</h2>
+//  <p>$(author)</p>
+//  <span>This blog has ${likes}</span>
+//  `;
 
- console.log(html);
+//  console.log(html);
 
  let ninjas = ['shaun', 'ryu' , 'chun-li'];
  ninjas[1] = 'ken';
@@ -107,7 +107,15 @@ console.log(random);
 
 console.log(ninjas.length)
 
+// array methods
 
+// let ninjaResult = ninjas.join('-');
+// let ninjaResult = ninjas.indexOf('chun-li');
+// let ninjaResult = ninjas.concat(['ken', 'crystal'])
+let ninjaResult = ninjas.push('ken');
+ninjaResult = ninjas.pop();
+
+console.log(ninjaResult)
 
 
 
