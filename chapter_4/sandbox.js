@@ -1,9 +1,13 @@
-// callbacks & foreach
+// get a reference to the 'ul'
+const ul = document.querySelector('.people');
 
-let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+const people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
-const logPerson = (person, index) => {
-    console.log(`${index} - hello ${person}`);
-}
+let html = ``;
 
-people.forEach(logPerson);
+people.forEach(person => {
+    html += `<li style="color: purple">${person}</li>`;
+});
+
+console.log(html);
+ul.innerHTML = html;
